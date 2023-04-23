@@ -55,3 +55,25 @@
 [x] Crie um container com flex;
 [x] Layout colunar;
 [x] Seis items com cores diferentes;
+`
+
+<div class="flex flex-col  bg-gray-600">
+  <div class="bg-gray-200 p-6 m-3">Teste</div>
+  <div class="bg-gray-300 p-6 m-3">Teste</div>
+  <div class="bg-gray-400 p-6 m-3">Teste</div>
+  <div class="bg-gray-500 p-6 m-3">Teste</div>
+</div>
+
+`
+
+ <!-- Exercício 06 -->
+
+[x] Crie um container com flex;
+[x] O container deve inverter a ordem depois da resolucao lg
+
+<div class="flex container bg-purple-600 p-6">
+  <div class="bg-pink-200 p-4 m-3 lg:order-3">1</div>
+  <div class="bg-pink-300 p-4 m-3 lg:order-4">2</div>
+  <div class="bg-pink-400 p-4 m-3 lg:order-2">3</div>
+  <div class="bg-pink-500 p-4 m-3 lg:order-1">4</div>
+</div>
